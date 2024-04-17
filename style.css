@@ -119,10 +119,10 @@ h6 {
   color: #fff;
   text-decoration: none;
   display: block;
-  height: 50px;
-  width: 50px;
-  font-size: 24px;
-  line-height: 50px;
+  height: 35px;
+  width: 32px;
+  font-size: 20px;
+  line-height: 33px;
   position: relative;
   text-align: center;
   cursor: pointer;
@@ -1216,7 +1216,7 @@ input:required {
   margin-bottom: 30px;
 }
 
-.about-video-area {
+/* .about-video-area {
   position: relative;
   z-index: 1;
   border-radius: 10px;
@@ -1274,7 +1274,7 @@ input:required {
 .about-video-area .video-icon a:hover::after,
 .about-video-area .video-icon a:focus::after {
   border: 2px solid #000000;
-}
+} */
 
 @-webkit-keyframes video-icon {
   0% {
