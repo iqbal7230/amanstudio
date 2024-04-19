@@ -1,12 +1,4 @@
-/* ------------------------------------------
-[Master Stylesheet]
-
-Template Name: Alime - Photography HTML Template
-Template Author: Colorlib
-Template Author URL: http://colorlib.com
-Version: 1.0.0
-Last Update: Feb 22, 2019
-
+/*
 
 [Tables of CSS Content]
 
@@ -794,6 +786,9 @@ input:required {
   cursor: pointer;
 }
 
+
+
+
 .classy-nav-container {
   background-color: transparent;
   padding: 0;
@@ -1084,6 +1079,7 @@ input:required {
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1213,6 +1209,7 @@ input:required {
   height: 3px;
   width: 70px;
   background-color: #fc6060;
+  /* background-color: #180101; */
   margin-bottom: 30px;
 }
 
@@ -1276,41 +1273,7 @@ input:required {
   border: 2px solid #000000;
 } */
 
-@-webkit-keyframes video-icon {
-  0% {
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-  50% {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-  }
-  100% {
-    width: 200%;
-    height: 200%;
-    opacity: 0;
-  }
-}
 
-@keyframes video-icon {
-  0% {
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-  50% {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-  }
-  100% {
-    width: 200%;
-    height: 200%;
-    opacity: 0;
-  }
-}
 
 .why-choose-us-content {
   -webkit-transition-duration: 800ms;
@@ -1599,7 +1562,7 @@ input:required {
 
 .post-author-area .popular-tags li {
   display: inline-block;
-  float: left;
+  /* float: left; */
   margin: 3px;
 }
 
